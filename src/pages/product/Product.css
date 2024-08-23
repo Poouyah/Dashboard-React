@@ -1,0 +1,125 @@
+.product {
+    flex: 4 1;
+}
+.productTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.productAddBtn {
+    width: 80px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: #fff;
+    background-color: teal;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.productTop {
+    display: flex;
+}
+.productTopLeft ,
+.productTopRight {
+    flex: 1;
+}
+.productTopRight {
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    padding-bottom: 17.5px;
+}
+.productTopInfo {
+    display: flex;
+    align-items: center;
+}
+.productTopImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.productTopName {
+    font-weight: 600;
+}
+.productBottomInfo {
+    margin-top: 10px;
+}
+.productInfoItem {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+}
+.productInfoKey {
+    font-weight: 600;
+}
+.productInfoVal {
+    font-weight: 300;
+}
+.productBottom {
+    box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+.productBottomTitle {
+    margin-bottom: 20px;
+}
+.productForm {
+    display: flex;
+    justify-content: space-between;
+}
+.productFormLeft {
+    display: flex;
+    flex-direction: column;
+}
+.productFormLeft > label {
+    margin-bottom: 10px;
+    color: gray;
+}
+.productFormLeft > input {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.productFormLeft > input:focus , .productFormLeft > select:focus{
+    outline: none;
+}
+.productFormLeft > select {
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.productFormRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.productUpload {
+    display: flex;
+    align-items: center;
+}
+.productUploadImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.productUploadBtn {
+    border: none;
+    outline: none;
+    background-color: rgb(171, 171, 255);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.productUploadBtn:hover {
+    background-color: rgb(137, 137, 255);
+}
